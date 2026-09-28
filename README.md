@@ -1,5 +1,5 @@
 
-###🛠️ Tecnologie Utilizzate
+**🛠️ Tecnologie utilizzate:**
 
 * Angular
 * TypeScript
