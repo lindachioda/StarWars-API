@@ -1,0 +1,27 @@
+
+h1 {
+    text-shadow: 0 0 10px #f5e23cf3, 0 0 20px #f2e040fc, 0 0 40px #f8e53bf5;
+    color: rgb(255, 224, 48);
+}
+
+h3 {
+    color: rgb(255, 224, 48);
+    margin-bottom: 30px;
+}
+
+.home-text {
+   text-align: center;
+   font-weight: 700;
+     margin: 50px auto;
+    max-width: 400px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.82);
+}
+
+@media (max-width:680px) {
+    .home-text {
+    max-width: 300px;
+}
+}

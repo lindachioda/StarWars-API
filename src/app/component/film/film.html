@@ -1,0 +1,6 @@
+
+<h1>Film</h1>
+<div *ngFor="let detail of films" class="films-container">
+    <a [routerLink]="['/dettagli', 'films', detail.id]">{{detail.title}}</a>
+</div>
+

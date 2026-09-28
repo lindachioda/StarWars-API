@@ -1,0 +1,6 @@
+
+<h1>Persone</h1>
+<div *ngFor="let detail of persone" class="persone-container">
+    <a [routerLink]="['/dettagli', 'people', detail.id]">{{detail.name}}</a> 
+    <!--prendo il router link sia di dettagli che del'id che voglio chiamare-->
+</div>

@@ -1,0 +1,5 @@
+
+<h1>Pianeti</h1>
+<div *ngFor="let detail of pianeti" class="pianeti-container">
+    <a [routerLink]="['/dettagli', 'planets', detail.id]">{{detail.name}}</a>
+</div>

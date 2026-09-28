@@ -1,0 +1,5 @@
+
+<h1>Speci</h1>
+<div *ngFor="let detail of species" class="species-container">
+    <a [routerLink]="['/dettagli', 'species', detail.id]">{{detail.name}}</a>
+</div>
